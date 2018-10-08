@@ -123,8 +123,8 @@ namespace BSDarthMaul
                     {
                         _playerController.leftSaber.transform.parent.transform.localPosition = _playerController.rightSaber.transform.parent.transform.localPosition;
                         _playerController.leftSaber.transform.parent.transform.localRotation = _playerController.rightSaber.transform.parent.transform.localRotation;
-                        _playerController.leftSaber.transform.parent.transform.Rotate(0, 180, 180);
-                        _playerController.leftSaber.transform.parent.transform.Translate(0, 0, sep * 2, Space.Self);
+                        _playerController.rightSaber.transform.parent.transform.Rotate(0, 180, 180);
+                        _playerController.rightSaber.transform.parent.transform.Translate(0, 0, sep * 2, Space.Self);
                     }
                     else
                     {
